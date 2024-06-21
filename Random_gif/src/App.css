@@ -1,0 +1,24 @@
+.cont
+{
+  min-width:100%;
+  min-height:100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #b1d2ff;
+    background-image: radial-gradient(#fff 2.5px, transparent 0), radial-gradient(#fff 2.5px, transparent 0);
+    background-position: 0 0, 18px 18px;
+    background-size: 36px 36px;
+  position: relative;
+  margin: 0;
+}
+.cont1
+{
+  position:absolute;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width:72vw;
+  height:4vw;
+  padding-top: 15px;
+
+}
