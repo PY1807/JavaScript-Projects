@@ -1,0 +1,100 @@
+.ca
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+.z
+{
+  display:flex;
+  flex-direction: column;
+}
+.t
+{
+  display: flex;
+  /* flex-direction: row; */
+}
+.details
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 8rem;
+  
+}
+.Your
+{
+  color: #065F46; 
+font-size: 1.25rem;
+line-height: 1.75rem; 
+font-weight: 600; 
+}
+.Sum
+{
+  color: #047857; 
+font-size: 3rem;
+line-height: 1; 
+font-weight: 600; 
+}
+.an
+{
+  font-size: 1.25rem;
+line-height: 1.75rem; 
+}
+.To
+{
+  font-size: 1.25rem;
+line-height: 1.75rem; 
+font-weight: 700; 
+}
+.but
+{
+  padding: 0.75rem; 
+margin-top: 1.25rem; 
+background-color: #047857; 
+transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+transition-duration: 300ms; 
+transition-timing-function: linear; 
+color: #ffffff; 
+font-size: 1.25rem;
+line-height: 1.75rem; 
+font-weight: 700; 
+border-radius: 0.5rem; 
+border-width: 2px; 
+border-color: #059669; 
+:hover {
+ background-color: #F5F3FF; 
+color: #047857; 
+ }
+}
+.Empty
+{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:50px;
+}
+.bt
+{
+  padding: 0.25rem; 
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; 
+  color: green;
+  font-weight: 600; 
+  text-transform: uppercase; 
+  border-radius: 9999px; 
+  border-width: 2px; 
+  /* border-color: #374151;  */
+  text-size-adjust: 12px;
+  cursor: pointer;
+}
+.bt :hover{
+  color:azure;
+  background-color: brown;
+}
