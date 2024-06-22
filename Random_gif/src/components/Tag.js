@@ -3,7 +3,7 @@ import './Tag.css';
 import Spinner from "./Spinner";
 
 
-const API_KEY = 'GQxRJpgkqesgz73WKdZOrULqnEPrg1sl';
+const API_KEY = 'MY_API_KEY';
 
 const Tag = ()=>
   {
